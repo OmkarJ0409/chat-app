@@ -20,7 +20,6 @@ setUserName("");
        setLog(true);
        socket.emit("join_chat", room);
      }
-     
   };
   return (
     <div className="App">
